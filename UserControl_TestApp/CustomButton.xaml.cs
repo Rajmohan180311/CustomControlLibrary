@@ -26,6 +26,7 @@ namespace UserControl_TestApp
         }
 
         // DEPENDENCY PROPERTY....
+        //This dp to be used by the test application that is using this control.
         public string ButtonText
         {
             get { return (string)GetValue(ButtonTextProperty); }
